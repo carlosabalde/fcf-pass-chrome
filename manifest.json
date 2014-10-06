@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "example.com FCF pass",
+  "description": "This extension demonstrates how to bypass the example.com paywall using the Google's First Click Free Program for Web Search. The extension is meant for educational and research purposes ONLY. Do NOT attempt to violate the law with it. Using this extension, you accept that you are going to use it for educational and research purposes ONLY.",
+  "version": "1.0",
+  "author": "Carlos Abalde <carlos.abalde@gmail.com>",
+  "homepage_url": "https://github.com/carlosabalde/fcf-pass-chrome",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.example.com/*"
+  ]
+}
